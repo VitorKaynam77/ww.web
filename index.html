@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio and profile for a video maker showcasing outstanding audiovisual projects.">
+    <title>WALLISSON WESKER VIDEOMAKER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #ff6600;
+        }
+
+    .hero {
+        position: relative;
+        background: url('hero-image.jpg') no-repeat center center/cover;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Gradiente preto semi-transparente */
+        z-index: 1;
+    }
+
+    .hero h2 {
+        position: relative;
+        font-size: 3rem;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        z-index: 2;
+    }
+
+
+        .hero {
+            background: url() no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+
+        .about, .services, .portfolio, .feedbacks, .contact {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about {
+            background: #f4f4f4;
+        }
+
+        .about h2, .services h2, .portfolio h2, .testimonials h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6600;
+        }
+
+        .services ul, .portfolio ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .services ul li, .portfolio ul li {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .portfolio ul li img {
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        .colorgrading ul li video {
+            width: 300px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+
+        .feedbacks {
+            background: #222;
+            color: #fff;
+        }
+
+        .feedbacks ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .feedbacks ul li {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feedbacks ul li img {
+            max-width: 300px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li {
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        footer ul li a:hover {
+            color: #ff6600;
+        }
+
+        @media (max-width: 768px) {
+            .services ul li, .portfolio ul li, .feedbacks ul li {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WALLISSON WESKER</h1>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#feedbacks">Feedbacks</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Contanto historias atraves do audio visual</h2>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre mim</h2>
+        <p>Wallisson é um diretor de fotografia que já passou por inúmeros setores e funções no audiovisual. Hoje atuo em meu próprio estúdio como Colorista e Montador,
+            Com uma bagagem em diferentes nichos e estilos de edição, Colorgrading, sound design que vão ajudar a amarrar a narrativa e dar emoção a sua história. Abaixo você verá exemplos dos meus 
+            mais renomados projetos, contando um pouco da minha historia no audio visual.
+        </p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <section class="colorgrading">
+            <h3>Colorgrading</h3>
+            <ul>
+                <li>
+                    <img src="./imagens/1 take-1log-final.png" alt="Colorgrading 1">
+                    <p>Description for Colorgrading 1</p>
+                </li>
+                <li>
+                    <img src="./imagens/LOG-FINAL.png" alt="Colorgrading 1">
+                    <p>Description for Colorgrading 1</p>
+                </li>
+                <li>
+                    <video controls>
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </li>
+                
+            </section>   
+        <h3>Projetos</h3>         
+        <ul>
+            <li><img src="project1.jpg" alt="Project 1"><p>Com 9 anos
+                de experiência já trabalhei em projetos com grandes marcas e influenciadores, tais como: @othiagohora do canal hora de negócios o qual contribuiu em seu crescimento dos 6 aos mais de 200 mil inscritos no youtube.</p></li>
+            <li><img src="project2.jpg" alt="Project 2"><p>Também passei por uma das maiores agências de tráfego pago do Brasil, atuando como filmmaker do Infoprodutor @freddias.</p></li>
+            <li><img src="project3.jpg" alt="Project 3"><p>Dirigi e trabalhei com grandes marcas como: Porsche, Renner, Genial Investimentos, Suco bagaço, Santos futebol clube, Paraná club  entre outras marcas no Brasil, Portugal e EUA.</p></li>
+        </ul>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <ul>
+            <li><strong>Produção de Vídeo</strong><br>Produção de vídeo de alta qualidade adaptada às suas necessidades.</li>
+            <li><strong>Edição</strong><br>Edição de vídeo especializada para resultados profissionais e refinados.</li>
+            <li><strong>Mentoria</strong><br>Orientação para tornar seus projetos visuais um sucesso.</li>
+        </ul>
+    </section>
+
+
+    <section id="feedbacks" class="feedbacks">
+        <h2>Feedbacks</h2>
+        <ul>
+            <li>
+                <img src="./imagens/IMG_20250112_140939_027.jpg" alt="Client Feedback 1">
+                <p>"Cliente satisfeito com o capricho, carinho e dedicação do projeto."</p>
+            </li>
+            <li>
+                <img src="./imagens/IMG_20250112_141347_021.jpg" alt="Client Feedback 2">
+                <p>"Feedback do projeto que fiz pro Influencer Claus Maldaner."</p>
+            </li>
+            <li>
+                <img src="./imagens/IMG_20250112_141103_727.jpg" alt="Client Feedback 3">
+                <p>"Comentario do Conde Vini sobre a entrega desse projeto maravilhoso."</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Sinta-se à vontade para entrar em contato para dúvidas ou colaborações:</p>
+        <p>Email: <a href="mailto:wallissonwesker@gmail.com">wallissonwesker@gmail.com</a></p>
+        <p>WhatsApp: 41 9814-0279</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Video Maker Portfolio. All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.instagram.com/wallissonwesker/">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
